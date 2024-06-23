@@ -9,15 +9,15 @@
    }
 @font-face {
     font-family: "mate-zone";
-    src: url("/fuentes/Charlotte\ Southern.ttf");
+    src: url("../fuentes/Charlotte\ Southern.ttf");
 }
 @font-face{
     font-family: "menutxtrg";
-    src: url("/fuentes/kenyan\ coffee\ rg.ttf");
+    src: url("../fuentes/kenyan\ coffee\ rg.ttf");
     }
 @font-face{
     font-family: "menutxtbd";
-    src: url("/fuentes/kenyan\ coffee\ bd.ttf")
+    src: url("../fuentes/kenyan\ coffee\ bd.ttf")
 }
 .logo {display: flex;
     margin-right: 1rem;
