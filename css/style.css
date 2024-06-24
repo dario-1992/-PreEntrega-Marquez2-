@@ -19,6 +19,20 @@
     font-family: "menutxtbd";
     src: url("../fuentes/kenyan\ coffee\ bd.ttf")
 }
+
+
+ 
+.floatlogo {
+    display: flex;
+    justify-content:end;
+    z-index: 1;
+    position: fixed; left :88%; top: 7%;
+    height: 8rem;
+     }
+
+    
+
+
 .logo {display: flex;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -41,12 +55,17 @@
 @media (min-width: 992px) {
 .navbar-expand-lg .burger {
     display: none;}
+    
 }
 @media (max-width: 992px) {
     .txtnav{
         flex-direction: column;
-    }
+        }
+        .floatlogo{
+            display: none;
+        }
 }
+
 .nav-item{
     padding: 1rem;
 }
