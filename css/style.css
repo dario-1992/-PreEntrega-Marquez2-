@@ -167,3 +167,14 @@ footer {
     }
     }
     
+    /* estilos matepedal*/
+
+.basepdal {
+    display: flex;
+    justify-content: center;
+}
+    .imgpedal {
+    display: flex;
+    justify-content: end;
+    width: 50rem;
+}
